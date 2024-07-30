@@ -82,6 +82,7 @@ Cell classes to apply to the body cell
 ### `frozenLeft`: `boolean`
 
 Determines if the column is frozen to the left. Default value: `false`
+⚠️ You can't use `frozenLeft` with `[scrollbarH]="true"` (issue with calculing the total table header width).
 
 ### `frozenRight`: `boolean`
 
